@@ -1,7 +1,7 @@
 
 import React, { useState } from 'react';
 import { BRISTOL_SCALE } from '../constants';
-import { chatWithGutBuddy } from '../services/geminiService';
+import { chatWithGutBuddy } from '../services/claudeService';
 
 const InsightsTab: React.FC = () => {
   const [messages, setMessages] = useState<{ role: 'user' | 'model', text: string }[]>([
