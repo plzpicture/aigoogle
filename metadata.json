@@ -1,0 +1,7 @@
+{
+  "name": "GutBuddy",
+  "description": "An AI-powered mobile-first gut health companion for daily logging, analysis, and insights.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
